@@ -1,8 +1,8 @@
 Package: qrdecode
-Title: What the Package Does (one line, title case)
+Title: Read QR Codes
 Version: 0.0.0.9000
-Authors@R: person("First", "Last", email = "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
+Authors@R: person("Reinhard", "Simon", email = "rsimon64@gmail.com", role = c("aut", "cre"))
+Description: Reads bi-dimensional codes from images.
 Depends: R (>= 3.4.4)
 License: MIT + file LICENSE
 Encoding: UTF-8
@@ -11,3 +11,4 @@ Suggests: testthat,
     covr
 URL: https://github.com/rsimon64/qrdecode
 BugReports: https://github.com/rsimon64/qrdecode/issues
+RoxygenNote: 6.0.1
