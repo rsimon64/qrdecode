@@ -15,11 +15,10 @@ locate_QR <- function(anImage) {
       k = k + 1
     }
   }
-  purrr::walk(quadrats,function(v) lines(v$x,v$y,col="blue"))
+  #purrr::walk(quadrats,function(v) lines(v$x,v$y,col="blue"))
   purrr::walk(ct,function(v) lines(v$x,v$y,col="blue"))
 
-  if( is.null(quadrats[[1]])) return(NULL
-                                     )
+  if( is.null(quadrats[[1]])) return(NULL)
 
   #   Filter all quadrilaterals that are approximately squares and have a certain number of children
 
